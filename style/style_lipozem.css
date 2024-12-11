@@ -56,7 +56,6 @@ main {
     background-image: url(/imagens/lipozem/desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-color: rgba(0, 0, 0, 0.616);
     background-blend-mode: multiply;
     position: relative;
@@ -166,7 +165,6 @@ footer h4 a {
         background-image: url(/imagens/lipozem/mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
         background-color: rgba(0, 0, 0, 0.616);
         background-blend-mode: multiply;
     }
@@ -229,7 +227,6 @@ footer h4 a {
         background-image: url(/imagens/lipozem/tablet.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
         background-color: rgba(0, 0, 0, 0.616);
         background-blend-mode: multiply;
     }
