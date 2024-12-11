@@ -54,10 +54,29 @@
     </main>
     <footer>
         <div id="container_footer"> 
-            <p id="p_footer">&copy;<a href="/pages/products/pronerve6.html"> 2024<strong> ProNerv6</strong></a>
+            <p id="p_footer">&copy;<a href="/pages/products/lipozem.com.html"> 2024<strong> lipozem.com</strong></a>
                 | All Rights Reserved. <strong><a href="/index.html">
             </p>
         </div>
     </footer>
+    <script>
+        window.redirectURL = "https://lipozem.com/?aff_id=16523";
+        function exitStopper() {
+            if (window.redirectURL) {
+                window.location.href = window.redirectURL;
+            }
+        }
+        window.addEventListener('blur', exitStopper);
+        document.body.addEventListener("mouseleave", function(e) {
+            if (e.clientY <= 0) {
+                exitStopper();
+            }
+        }, false);
+        window.addEventListener('beforeunload', exitStopper);
+        window.addEventListener('pagehide', exitStopper);
+        window.addEventListener('popstate', function() {
+            exitStopper();
+        });
+    </script> 
 </body>
 </html>
