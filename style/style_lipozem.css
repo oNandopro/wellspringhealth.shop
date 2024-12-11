@@ -52,10 +52,9 @@ main {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url(/imagens/pronerve_6/big.png);
+    background-image: url(/imagens/lipozem/desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-color: rgba(0, 0, 0, 0.616);
     background-blend-mode: multiply;
 }
@@ -151,7 +150,7 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-image: url(/imagens/pronerve_6/mobile.png);
+        background-image: url(/imagens/lipozem/mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -214,10 +213,9 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-image: url(/imagens/pronerve_6/tablet.png);
+        background-image: url(/imagens/lipozem/tablet.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
         background-color: rgba(0, 0, 0, 0.616);
         background-blend-mode: multiply;
     }
